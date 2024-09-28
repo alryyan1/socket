@@ -7,10 +7,16 @@ const io = new Server(3000,{
 })
 io.on('connection',(socket)=>{
     console.log('client connected successfully')
-    socket.emit('hello','data sent to client with 123')
-    socket.on('doc-data',(data)=>{
-        console.log(data)
+    socket.on('disconnect',()=>{
+        console.log('client disconnected')
     })
+    socket.on('newLabPatient',(patient)=>{
+        console.log('new incoming patient '+ patient)
+
+        io.emit('newLabPatientFromServer',patient)
+    })
+
+
     socket.on('resultAuthenticated',(patient)=>{
         console.log('resultAuthenticated for patient '+ patient)
 
