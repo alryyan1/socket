@@ -10,10 +10,22 @@ io.on('connection',(socket)=>{
     socket.on('disconnect',()=>{
         console.log('client disconnected')
     })
-    socket.on('newLabPatient',(patient)=>{
+    socket.on('labPayment',(patient)=>{
         console.log('new incoming patient '+ patient)
 
-        io.emit('newLabPatientFromServer',patient)
+        io.emit('labPaymentFromServer',patient)
+    })
+
+    socket.on('newDoctorPatient',(patient)=>{
+        console.log('new incoming patient '+ patient)
+
+        io.emit('newDoctorPatientFromServer',patient)
+    })
+
+    socket.on('lab_request_confirm',(patient)=>{
+        console.log( 'labrRquestConfirmFromServer '+ patient)
+
+        io.emit('labrRquestConfirmFromServer',patient)
     })
 
 
