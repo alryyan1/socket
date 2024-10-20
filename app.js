@@ -3,6 +3,8 @@ import {Server} from 'socket.io'
 const io = new Server(3000,{
     cors:{
         origin : ['http://localhost:5173']
+        
+        // origin : ['http://localhost:5173','http://192.168.1.5:8080']
     }
 })
 io.on('connection',(socket)=>{
@@ -15,7 +17,11 @@ io.on('connection',(socket)=>{
 
         io.emit('labPaymentFromServer',patient)
     })
+    socket.on('patientUpdated',(patient)=>{
+        console.log('patientUpdated '+ patient)
 
+        io.emit('patientUpdatedFromServer',patient)
+    })
     socket.on('newDoctorPatient',(patient)=>{
         console.log('new incoming patient '+ patient)
 
