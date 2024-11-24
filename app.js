@@ -13,7 +13,7 @@ io.on('connection',(socket)=>{
         console.log('client disconnected')
     })
     socket.on('labPayment',(patient)=>{
-        console.log('new incoming patient '+ patient)
+        console.log('labPaymentFromServer '+ patient)
 
         io.emit('labPaymentFromServer',patient)
     })
@@ -23,7 +23,7 @@ io.on('connection',(socket)=>{
         io.emit('patientUpdatedFromServer',patient)
     })
     socket.on('newDoctorPatient',(patient)=>{
-        console.log('new incoming patient '+ patient)
+        console.log('new incoming patient '+ patient.patient.name)
 
         io.emit('newDoctorPatientFromServer',patient)
     })
