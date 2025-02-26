@@ -102,3 +102,335 @@ Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInter
 2024-12-03 00:24:27 - Send SIGINT 6828
 2024-12-03 00:24:27 - SIGINT to 6828 failed - Killing as fallback
 2024-12-03 00:24:27 - Finished jawdasocketserver.exe
+2024-12-12 01:34:36 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\socket\node_modules\node-windows\lib\wrapper.js --file C:\socket\app.js --scriptoptions= --log "jawda socket server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-12 01:34:36 - Started 4160
+2024-12-12 01:35:32 - Stopping jawdasocketserver.exe
+2024-12-12 01:35:32 - ProcessKill 4160
+2024-12-12 01:35:32 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-12-12 11:19:28 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\socket\node_modules\node-windows\lib\wrapper.js --file C:\socket\app.js --scriptoptions= --log "jawda socket server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-12 11:19:28 - Started 6836
+2024-12-24 23:07:32 - Stopping jawdasocketserver.exe
+2024-12-24 23:07:32 - ProcessKill 6836
+2024-12-24 23:07:33 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-12-24 23:08:09 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\socket\node_modules\node-windows\lib\wrapper.js --file C:\socket\app.js --scriptoptions= --log "jawda socket server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-24 23:08:09 - Started 7840
+2024-12-24 23:57:46 - Stopping jawdasocketserver.exe
+2024-12-24 23:57:46 - ProcessKill 7840
+2024-12-24 23:57:46 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-12-24 23:58:16 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\socket\node_modules\node-windows\lib\wrapper.js --file C:\socket\app.js --scriptoptions= --log "jawda socket server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-24 23:58:16 - Started 6692
+2024-12-25 11:05:35 - Stopping jawdasocketserver.exe
+2024-12-25 11:05:35 - ProcessKill 6692
+2024-12-25 11:05:35 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-12-25 11:06:01 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\socket\node_modules\node-windows\lib\wrapper.js --file C:\socket\app.js --scriptoptions= --log "jawda socket server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-25 11:06:01 - Started 6912
+2024-12-25 23:52:59 - Stopping jawdasocketserver.exe
+2024-12-25 23:52:59 - ProcessKill 6912
+2024-12-25 23:52:59 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-12-26 10:40:15 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\socket\node_modules\node-windows\lib\wrapper.js --file C:\socket\app.js --scriptoptions= --log "jawda socket server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-26 10:40:15 - Started 7284
+2024-12-26 13:02:46 - Stopping jawdasocketserver.exe
+2024-12-26 13:02:46 - ProcessKill 7284
+2024-12-26 13:02:47 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-12-26 13:13:04 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\socket\node_modules\node-windows\lib\wrapper.js --file C:\socket\app.js --scriptoptions= --log "jawda socket server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-26 13:13:04 - Started 7056
+2024-12-29 17:08:54 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\socket\node_modules\node-windows\lib\wrapper.js --file C:\socket\app.js --scriptoptions= --log "jawda socket server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-29 17:08:54 - Started 6412
+2024-12-30 01:04:43 - Stopping jawdasocketserver.exe
+2024-12-30 01:04:43 - ProcessKill 6412
+2024-12-30 01:04:43 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-12-30 01:05:11 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\socket\node_modules\node-windows\lib\wrapper.js --file C:\socket\app.js --scriptoptions= --log "jawda socket server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-30 01:05:11 - Started 7208
+2024-12-30 22:40:22 - Stopping jawdasocketserver.exe
+2024-12-30 22:40:22 - ProcessKill 7208
+2024-12-30 22:40:23 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-12-30 22:40:49 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\socket\node_modules\node-windows\lib\wrapper.js --file C:\socket\app.js --scriptoptions= --log "jawda socket server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-30 22:40:49 - Started 7028
+2024-12-31 20:18:29 - Stopping jawdasocketserver.exe
+2024-12-31 20:18:29 - ProcessKill 7028
+2024-12-31 20:18:29 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2024-12-31 20:18:57 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\socket\node_modules\node-windows\lib\wrapper.js --file C:\socket\app.js --scriptoptions= --log "jawda socket server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2024-12-31 20:18:57 - Started 7044
+2025-01-02 14:54:45 - Stopping jawdasocketserver.exe
+2025-01-02 14:54:45 - ProcessKill 7044
+2025-01-02 14:54:45 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2025-01-02 15:23:34 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\socket\node_modules\node-windows\lib\wrapper.js --file C:\socket\app.js --scriptoptions= --log "jawda socket server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-01-02 15:23:34 - Started 6796
+2025-01-07 17:31:52 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\socket\node_modules\node-windows\lib\wrapper.js --file C:\socket\app.js --scriptoptions= --log "jawda socket server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-01-07 17:31:52 - Started 6764
+2025-01-11 18:50:33 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\socket\node_modules\node-windows\lib\wrapper.js --file C:\socket\app.js --scriptoptions= --log "jawda socket server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-01-11 18:50:34 - Started 7436
+2025-01-20 13:10:03 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\socket\node_modules\node-windows\lib\wrapper.js --file C:\socket\app.js --scriptoptions= --log "jawda socket server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-01-20 13:10:03 - Started 6420
+2025-01-20 13:11:10 - Stopping jawdasocketserver.exe
+2025-01-20 13:11:10 - ProcessKill 6420
+2025-01-20 13:11:10 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2025-01-20 13:11:38 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\socket\node_modules\node-windows\lib\wrapper.js --file C:\socket\app.js --scriptoptions= --log "jawda socket server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-01-20 13:11:38 - Started 6788
+2025-01-26 00:25:21 - Stopping jawdasocketserver.exe
+2025-01-26 00:25:21 - ProcessKill 6788
+2025-01-26 00:25:21 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2025-01-26 00:25:47 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\socket\node_modules\node-windows\lib\wrapper.js --file C:\socket\app.js --scriptoptions= --log "jawda socket server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-01-26 00:25:47 - Started 6072
+2025-01-27 09:20:51 - Stopping jawdasocketserver.exe
+2025-01-27 09:20:51 - ProcessKill 6072
+2025-01-27 09:20:51 - Found child process: 7192 Name: conhost.exe
+2025-01-27 09:20:51 - Found child process: 8856 Name: node.exe
+2025-01-27 09:20:51 - Stopping process 7192
+2025-01-27 09:20:51 - Send SIGINT 7192
+2025-01-27 09:20:51 - SIGINT to 7192 failed - Killing as fallback
+2025-01-27 09:20:51 - Stopping process 8856
+2025-01-27 09:20:51 - Send SIGINT 8856
+2025-01-27 09:20:51 - SIGINT to 8856 failed - Killing as fallback
+2025-01-27 09:20:51 - Stopping process 6072
+2025-01-27 09:20:51 - Send SIGINT 6072
+2025-01-27 09:20:51 - SIGINT to 6072 failed - Killing as fallback
+2025-01-27 09:20:51 - Finished jawdasocketserver.exe
+2025-01-27 09:20:52 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\socket\node_modules\node-windows\lib\wrapper.js --file C:\socket\app.js --scriptoptions= --log "jawda socket server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-01-27 09:20:52 - Started 15284
+2025-01-27 09:26:00 - Stopping jawdasocketserver.exe
+2025-01-27 09:26:00 - ProcessKill 15284
+2025-01-27 09:26:00 - Found child process: 19992 Name: conhost.exe
+2025-01-27 09:26:00 - Found child process: 15144 Name: node.exe
+2025-01-27 09:26:00 - Stopping process 19992
+2025-01-27 09:26:00 - Send SIGINT 19992
+2025-01-27 09:26:00 - SIGINT to 19992 failed - Killing as fallback
+2025-01-27 09:26:00 - Stopping process 15144
+2025-01-27 09:26:00 - Send SIGINT 15144
+2025-01-27 09:26:00 - SIGINT to 15144 failed - Killing as fallback
+2025-01-27 09:26:00 - Stopping process 15284
+2025-01-27 09:26:00 - Send SIGINT 15284
+2025-01-27 09:26:00 - SIGINT to 15284 failed - Killing as fallback
+2025-01-27 09:26:00 - Finished jawdasocketserver.exe
+2025-02-03 16:18:35 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\socket\node_modules\node-windows\lib\wrapper.js --file C:\socket\app.js --scriptoptions= --log "jawda socket server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-02-03 16:18:35 - Started 7844
+2025-02-06 09:42:18 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\socket\node_modules\node-windows\lib\wrapper.js --file C:\socket\app.js --scriptoptions= --log "jawda socket server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-02-06 09:42:18 - Started 7032
+2025-02-09 11:34:58 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\socket\node_modules\node-windows\lib\wrapper.js --file C:\socket\app.js --scriptoptions= --log "jawda socket server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-02-09 11:34:58 - Started 6896
+2025-02-12 23:08:16 - Stopping jawdasocketserver.exe
+2025-02-12 23:08:16 - ProcessKill 6896
+2025-02-12 23:08:16 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2025-02-12 23:08:49 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\socket\node_modules\node-windows\lib\wrapper.js --file C:\socket\app.js --scriptoptions= --log "jawda socket server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-02-12 23:08:49 - Started 6720
+2025-02-12 23:10:35 - Stopping jawdasocketserver.exe
+2025-02-12 23:10:35 - ProcessKill 6720
+2025-02-12 23:10:35 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2025-02-13 08:34:18 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\socket\node_modules\node-windows\lib\wrapper.js --file C:\socket\app.js --scriptoptions= --log "jawda socket server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-02-13 08:34:18 - Started 6924
+2025-02-16 22:44:22 - Stopping jawdasocketserver.exe
+2025-02-16 22:44:22 - ProcessKill 6924
+2025-02-16 22:44:23 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2025-02-16 22:44:50 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\socket\node_modules\node-windows\lib\wrapper.js --file C:\socket\app.js --scriptoptions= --log "jawda socket server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-02-16 22:44:50 - Started 7080
+2025-02-24 01:05:32 - Stopping jawdasocketserver.exe
+2025-02-24 01:05:32 - ProcessKill 7080
+2025-02-24 01:05:34 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2025-02-24 01:08:42 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\socket\node_modules\node-windows\lib\wrapper.js --file C:\socket\app.js --scriptoptions= --log "jawda socket server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-02-24 01:08:42 - Started 5288
+2025-02-24 01:12:57 - Stopping jawdasocketserver.exe
+2025-02-24 01:12:57 - ProcessKill 5288
+2025-02-24 01:12:57 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2025-02-24 08:39:35 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\socket\node_modules\node-windows\lib\wrapper.js --file C:\socket\app.js --scriptoptions= --log "jawda socket server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-02-24 08:39:35 - Started 7212
+2025-02-26 00:57:09 - Stopping jawdasocketserver.exe
+2025-02-26 00:57:09 - ProcessKill 7212
+2025-02-26 00:57:10 - Found child process: 7220 Name: conhost.exe
+2025-02-26 00:57:10 - Found child process: 7580 Name: node.exe
+2025-02-26 00:57:10 - Stopping process 7220
+2025-02-26 00:57:10 - Send SIGINT 7220
+2025-02-26 00:57:10 - SIGINT to 7220 failed - Killing as fallback
+2025-02-26 00:57:10 - Stopping process 7580
+2025-02-26 00:57:10 - Send SIGINT 7580
+2025-02-26 00:57:10 - SIGINT to 7580 failed - Killing as fallback
+2025-02-26 00:57:10 - Stopping process 7212
+2025-02-26 00:57:10 - Send SIGINT 7212
+2025-02-26 00:57:10 - SIGINT to 7212 failed - Killing as fallback
+2025-02-26 00:57:10 - Finished jawdasocketserver.exe

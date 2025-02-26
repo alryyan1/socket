@@ -2,7 +2,7 @@ import { Socket } from 'engine.io'
 import { Server } from 'socket.io'
 const io = new Server(3000, {
     cors: {
-        origin: ['http://localhost:5173']
+        origin: ['http://192.168.100.70:5173','http://localhost:5173']
 
         // origin : ['http://localhost:5173','http://192.168.1.5:8080']
     }
@@ -44,6 +44,19 @@ io.on('connection', (socket) => {
         console.log('resultAuthenticated for patient ' + patient)
 
         io.emit('authenticatedResult', patient)
+    })
+
+
+    //flutter
+    socket.on('msg', () => {
+        console.log('message from flutter ' )
+
+        io.emit('flutter', 'msg from pc')
+    })
+    socket.on('new deduct', (data) => {
+       
+
+        io.emit('new deduct recieved', JSON.parse(data))
     })
 })
 
