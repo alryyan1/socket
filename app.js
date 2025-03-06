@@ -2,7 +2,7 @@ import { Socket } from 'engine.io'
 import { Server } from 'socket.io'
 const io = new Server(3000, {
     cors: {
-        origin: ['http://192.168.100.70:5173','http://localhost:5173']
+        origin: ['http://192.168.137.1:5173','http://localhost:5173']
 
         // origin : ['http://localhost:5173','http://192.168.1.5:8080']
     }
@@ -57,6 +57,11 @@ io.on('connection', (socket) => {
        
 
         io.emit('new deduct recieved', JSON.parse(data))
+    })
+    socket.on('update deduct', (data) => {
+       
+
+        io.emit('update deduct recieved', JSON.parse(data))
     })
 })
 
