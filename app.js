@@ -1,9 +1,9 @@
 import { Socket } from 'engine.io'
 import { Server } from 'socket.io'
+import { connection, handleCbc } from './lis.js'
 const io = new Server(3000, {
     cors: {
         origin: ['http://192.168.137.1:5173','http://localhost:5173']
-
         // origin : ['http://localhost:5173','http://192.168.1.5:8080']
     }
 })
@@ -11,6 +11,10 @@ io.on('connection', (socket) => {
     console.log('client connected successfully')
     socket.on('disconnect', () => {
         console.log('client disconnected')
+    })
+    socket.on('cbc', (data) => {
+        console.log('cbc data',data)
+        handleCbc(data,connection)
     })
     socket.on('labPayment', (patient) => {
         console.log('labPaymentFromServer ' + patient)
